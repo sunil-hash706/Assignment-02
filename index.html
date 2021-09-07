@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-01</title>
+    <style>
+        /* using in -page css */
+        @media screen and (max-width: 1000px) {
+            ul {
+                display: flex;
+                flex-direction: column;
+                background-color: black;
+            }
+            body{
+                margin: 0;
+                padding: 0;
+            
+            }
+            li {
+                margin: 20px;
+                z-index: +1;
+            }
+
+            .main{
+                display: flex;
+                position: relative;
+                margin: 0;
+                top: 200px;
+            }
+            .img{
+                position: relative;
+                left: -50px;
+            }
+            .item{
+                position: relative;
+                flex-direction: column;
+                top: 70px;
+            }
+        }
+    </style>
+</head>
+
+<body style=" margin: 0; padding: 0; background-image: url('/bgimg1.jpg');
+ background-repeat: repeat-y; background-size: cover;">
+    <nav style=" height: 50px;text-align: center; 
+    background-color: black; color: white;">
+        <ul style="padding: 15px; display: flex; justify-content: space-around; margin-top: 0px;">
+            <li style="list-style: none;">Name:-Sunil Kumar</li>
+            <li style="list-style: none;">Roll.No.:-2006109</li>
+            <li style="list-style: none;">Assignment-02</li>
+            <li style="list-style: none;">Date:-8/09/2021</li>
+        </ul>
+    </nav>
+    <div class ="main">
+        <div class="img" style="width: 18%; margin: auto;padding: 80px;">
+            <img style="height: 200px;
+        width: 200px;
+         
+        border-radius: 200px;
+         " src="/img.jpg" alt="image">
+
+        </div>
+        <div class="item" style="color: rgb(206, 221, 0); display: flex;
+    justify-content: space-around; padding: 0px; width: 80%;margin: auto; ">
+            <h2>National institute of technology, Patna(Bihar)</h2>
+            <h2>Name:- Sunil Kumar</h2>
+            <h2>Roll No.:- 2006109</h2>
+            <h2>Branch :- Computer science and engineering</h2>
+        </div>
+    </div>
+</body>
+
+</html>
